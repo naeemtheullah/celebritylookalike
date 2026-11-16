@@ -1,0 +1,6 @@
+# Celebrity Look Alike
+Purpose: private, browser-side approximate celebrity resemblance finder.
+Core pages: /, /celebrities, /about, /faq, /privacy-policy, /disclaimer.
+Method: Face-API face detection, landmarks, 128-dimensional descriptors, and Euclidean-distance ranking against reviewed public celebrity references.
+Privacy: visitor photos and descriptors remain in browser memory and are not uploaded or stored.
+Limitations: resemblance is approximate and is not identity recognition or a probability.

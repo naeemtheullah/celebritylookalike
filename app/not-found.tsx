@@ -1,0 +1,1 @@
+import Link from 'next/link';export default function NotFound(){return <article className="basic"><p className="eyebrow">404</p><h1>That page stepped out of frame.</h1><p>Return to the finder and try another direction.</p><Link className="primary" href="/">Go home</Link></article>}

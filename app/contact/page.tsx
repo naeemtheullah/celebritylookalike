@@ -1,0 +1,1 @@
+export default function Page(){return <article className="basic"><h1>Contact</h1><p>The site owner must provide the public support email before launch. Until then, no address is published or fabricated.</p></article>}

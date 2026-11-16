@@ -1,0 +1,1 @@
+export default function Page(){return <article className="basic"><h1>Cookie policy</h1><p>The current site stores one necessary browser preference recording your consent choice. Analytics and marketing technologies are disabled by default and are not installed in this build.</p></article>}

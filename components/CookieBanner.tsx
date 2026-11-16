@@ -1,0 +1,3 @@
+"use client";
+import { useEffect,useState } from "react";
+export default function CookieBanner(){const [open,setOpen]=useState(false);useEffect(()=>setOpen(!localStorage.getItem("cookie-consent")),[]);const save=(v:string)=>{localStorage.setItem("cookie-consent",v);setOpen(false)};return open?<aside className="cookies" aria-label="Cookie preferences"><strong>Your privacy, your choice</strong><p>Only necessary preferences are used today. Optional analytics and marketing remain off.</p><div><button onClick={()=>save("necessary")}>Reject optional</button><button className="primary small" onClick={()=>save("all")}>Accept all</button></div></aside>:null}
