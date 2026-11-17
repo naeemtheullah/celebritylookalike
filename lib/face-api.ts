@@ -18,10 +18,12 @@ export async function describeFace(image:HTMLImageElement){
   return descriptor;
 }
 const distance=(a:number[],b:number[])=>Math.sqrt(a.reduce((sum,v,i)=>sum+(v-b[i])**2,0));
+const MAX_MATCH_DISTANCE=0.6;
+export const distanceToPercent=(d:number)=>Math.round(Math.max(0,Math.min(1,1-d/MAX_MATCH_DISTANCE))*100);
 export function rankMatches(query:number[],refs:ReferenceDescriptor[]):CelebrityMatch[]{
   const best=new Map<string,number>();
   for(const ref of refs){if(ref.values.length!==128||ref.values.some(v=>!Number.isFinite(v)))continue;const d=distance(query,ref.values);best.set(ref.celebrityId,Math.min(d,best.get(ref.celebrityId)??Infinity));}
-  return [...best].map(([id,d])=>({celebrity:celebrities.find(c=>c.id===id),distance:d})).filter((v):v is CelebrityMatch=>Boolean(v.celebrity)).sort((a,b)=>a.distance-b.distance).slice(0,5);
+  return [...best].map(([id,d])=>({celebrity:celebrities.find(c=>c.id===id),distance:d})).filter((v):v is CelebrityMatch=>Boolean(v.celebrity)&&v.distance<=MAX_MATCH_DISTANCE).sort((a,b)=>a.distance-b.distance).slice(0,5);
 }
 export async function buildLiveReferenceLibrary(){
   if(liveCache)return liveCache;
@@ -30,7 +32,7 @@ export async function buildLiveReferenceLibrary(){
     try{
       const wikipedia=new URL("https://en.wikipedia.org/w/api.php"); wikipedia.search=new URLSearchParams({action:"query",format:"json",origin:"*",titles:celebrity.name,prop:"pageimages",piprop:"name"}).toString();
       const page=Object.values((await fetch(wikipedia).then(r=>r.json())).query.pages)[0] as {pageimage?:string}; if(!page.pageimage)continue;
-      const commons=new URL("https://commons.wikimedia.org/w/api.php"); commons.search=new URLSearchParams({action:"query",format:"json",origin:"*",titles:`File:${page.pageimage}`,prop:"imageinfo",iiprop:"url|extmetadata",iiurlwidth:"700"}).toString();
+      const commons=new URL("https://en.wikipedia.org/w/api.php"); commons.search=new URLSearchParams({action:"query",format:"json",origin:"*",titles:`File:${page.pageimage}`,prop:"imageinfo",iiprop:"url|extmetadata",iiurlwidth:"700"}).toString();
       const file=Object.values((await fetch(commons).then(r=>r.json())).query.pages)[0] as {imageinfo?:Array<{thumburl?:string;url:string;descriptionurl:string;extmetadata?:Record<string,{value?:string}>}>}; const info=file.imageinfo?.[0]; if(!info)continue;
       const license=(info.extmetadata?.LicenseShortName?.value??"").replace(/<[^>]+>/g,""); if(!/(CC BY|CC0|Public domain)/i.test(license)||/NC/i.test(license))continue;
       const blob=await fetch(info.thumburl??info.url).then(r=>r.blob()); const objectUrl=URL.createObjectURL(blob); const image=new Image(); image.src=objectUrl; await image.decode();
