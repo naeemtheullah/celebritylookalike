@@ -10,7 +10,13 @@ export async function loadModels(){
 }
 export async function describeFace(image:HTMLImageElement){
   const faceapi=await import("@vladmandic/face-api");
-  const detections=await faceapi.detectAllFaces(image,new faceapi.TinyFaceDetectorOptions({inputSize:416,scoreThreshold:.55})).withFaceLandmarks().withFaceDescriptors();
+  const detectWith=(options:{inputSize:number;scoreThreshold:number})=>faceapi.detectAllFaces(image,new faceapi.TinyFaceDetectorOptions(options)).withFaceLandmarks().withFaceDescriptors();
+  const attempts=[{inputSize:416,scoreThreshold:.55},{inputSize:512,scoreThreshold:.35},{inputSize:608,scoreThreshold:.2}];
+  let detections=await detectWith(attempts[0]);
+  for(const options of attempts.slice(1)){
+    if(detections.length>0)break;
+    detections=await detectWith(options);
+  }
   if(detections.length===0)throw new Error("We couldn't find a clear face. Try a brighter, front-facing photo.");
   if(detections.length>1)throw new Error("We found more than one face. Please use a photo with one person.");
   const descriptor=Array.from(detections[0].descriptor);
@@ -18,8 +24,9 @@ export async function describeFace(image:HTMLImageElement){
   return descriptor;
 }
 const distance=(a:number[],b:number[])=>Math.sqrt(a.reduce((sum,v,i)=>sum+(v-b[i])**2,0));
-const MAX_MATCH_DISTANCE=0.6;
-export const distanceToPercent=(d:number)=>Math.round(Math.max(0,Math.min(1,1-d/MAX_MATCH_DISTANCE))*100);
+const MAX_MATCH_DISTANCE=0.85;
+const PERCENT_FLOOR_DISTANCE=0.5,PERCENT_CEIL_DISTANCE=MAX_MATCH_DISTANCE,PERCENT_MIN=35,PERCENT_MAX=98;
+export const distanceToPercent=(d:number)=>{const t=Math.max(0,Math.min(1,(d-PERCENT_FLOOR_DISTANCE)/(PERCENT_CEIL_DISTANCE-PERCENT_FLOOR_DISTANCE)));return Math.round(PERCENT_MAX-t*(PERCENT_MAX-PERCENT_MIN))};
 export function rankMatches(query:number[],refs:ReferenceDescriptor[]):CelebrityMatch[]{
   const best=new Map<string,number>();
   for(const ref of refs){if(ref.values.length!==128||ref.values.some(v=>!Number.isFinite(v)))continue;const d=distance(query,ref.values);best.set(ref.celebrityId,Math.min(d,best.get(ref.celebrityId)??Infinity));}

@@ -691,5 +691,572 @@
         "attribution": "Own work"
       }
     ]
+  },
+  {
+    "id": "shah-rukh-khan",
+    "name": "Shah Rukh Khan",
+    "slug": "shah-rukh-khan",
+    "profession": "Actor",
+    "category": "Actors",
+    "biography": "Shah Rukh Khan (pronounced [ˈʃaːɦɾʊx xäːn] ; born Shahrukh Khan; 2 November 1965), popularly known by the initials SRK, is an Indian actor and film producer renowned for his work in Hindi cinema. Referred to in the media as the \"Baadshah of Bollywood\" and \"King Khan\", he has appeared in more than 90 films and earned numerous accolades, including a National Film Award and 15 Filmfare Awards.",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Shah_Rukh_Khan",
+    "images": [
+      {
+        "thumbnailUrl": "/celebrities/shah-rukh-khan.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Shah_Rukh_Khan_graces_the_launch_of_the_new_Santro.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Shah_Rukh_Khan_graces_the_launch_of_the_new_Santro.jpg",
+        "filePageUrl": "https://commons.wikimedia.org/wiki/File:Shah_Rukh_Khan_graces_the_launch_of_the_new_Santro.jpg",
+        "author": "Bollywood Hungama",
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+        "attribution": "Bollywood Hungama"
+      }
+    ]
+  },
+  {
+    "id": "aamir-khan",
+    "name": "Aamir Khan",
+    "slug": "aamir-khan",
+    "profession": "Actor",
+    "category": "Actors",
+    "biography": "Aamir Hussain Khan (pronounced [ˈaːmɪr xaːn]; born 14 March 1965) is an Indian actor, filmmaker, and television personality who works in Hindi films. Referred to as \"Mr. Perfectionist\" in the media, through his career spanning over 30 years, Khan has established himself as one of the most notable actors of Indian cinema.",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Aamir_Khan",
+    "images": [
+      {
+        "thumbnailUrl": "/celebrities/aamir-khan.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/65/Aamir_Khan_at_the_success_bash_of_Secret_Superstar.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Aamir_Khan_at_the_success_bash_of_Secret_Superstar.jpg",
+        "filePageUrl": "https://commons.wikimedia.org/wiki/File:Aamir_Khan_at_the_success_bash_of_Secret_Superstar.jpg",
+        "author": "Bollywood Hungama",
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+        "attribution": "Bollywood Hungama"
+      }
+    ]
+  },
+  {
+    "id": "ranbir-kapoor",
+    "name": "Ranbir Kapoor",
+    "slug": "ranbir-kapoor",
+    "profession": "Actor",
+    "category": "Actors",
+    "biography": "Ranbir Raj Kapoor (pronounced [ɾəɳˈbiːɾ kəˈpuːɾ]; born 28 September 1982) is an Indian actor who works in Hindi-language films. He has received several accolades, including seven Filmfare Awards, and is known for his work across a range of film genres.",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Ranbir_Kapoor",
+    "images": [
+      {
+        "thumbnailUrl": "/celebrities/ranbir-kapoor.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Ranbir_Kapoor_at_Ramayana_special_event_in_Sep_26_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ranbir_Kapoor_at_Ramayana_special_event_in_Sep_26_(cropped).jpg",
+        "filePageUrl": "https://commons.wikimedia.org/wiki/File:Ranbir_Kapoor_at_Ramayana_special_event_in_Sep_26_(cropped).jpg",
+        "author": "Bollywood Hungama",
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+        "attribution": "Bollywood Hungama"
+      }
+    ]
+  },
+  {
+    "id": "fawad-khan",
+    "name": "Fawad Khan",
+    "slug": "fawad-khan",
+    "profession": "Actor",
+    "category": "Actors",
+    "biography": "Fawad Afzal Khan (born 29 November 1981) is a Pakistani actor, producer, screenwriter, songwriter, and singer known for his work in films and Urdu television. Khan is the recipient of several accolades, including a Filmfare Award, two Lux Style Awards, and six Hum Awards.\nKhan began his acting career on the television sitcom, Jutt and Bond.",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Fawad_Khan",
+    "images": [
+      {
+        "thumbnailUrl": "/celebrities/fawad-khan.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Fawad_khan_at_grazia_young_faishon_awards.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fawad_khan_at_grazia_young_faishon_awards.jpg",
+        "filePageUrl": "https://commons.wikimedia.org/wiki/File:Fawad_khan_at_grazia_young_faishon_awards.jpg",
+        "author": "Bollywood Hungama",
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+        "attribution": "Bollywood Hungama"
+      }
+    ]
+  },
+  {
+    "id": "priyanka-chopra",
+    "name": "Priyanka Chopra",
+    "slug": "priyanka-chopra",
+    "profession": "Actor",
+    "category": "Actresses",
+    "biography": "Priyanka Chopra Jonas (née Chopra; born 18 July 1982) is an Indian actress, film producer and singer. The winner of the Miss World 2000 pageant, she is India's highest-paid actress and her accolades include two National Film Awards and five Filmfare Awards. In 2016, the Government of India honoured her with the Padma Shri, and Time named her one of the 100 most influential people in the world.",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Priyanka_Chopra",
+    "images": [
+      {
+        "thumbnailUrl": "/celebrities/priyanka-chopra.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/45/Priyanka_Chopra_at_Bulgary_launch%2C_2024_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Priyanka_Chopra_at_Bulgary_launch,_2024_(cropped).jpg",
+        "filePageUrl": "https://commons.wikimedia.org/wiki/File:Priyanka_Chopra_at_Bulgary_launch,_2024_(cropped).jpg",
+        "author": "Bollywood Hungama",
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+        "attribution": "Bollywood Hungama"
+      }
+    ]
+  },
+  {
+    "id": "deepika-padukone",
+    "name": "Deepika Padukone",
+    "slug": "deepika-padukone",
+    "profession": "Actor",
+    "category": "Actresses",
+    "biography": "Deepika Prakash Padukone (pronounced [d̪iːpɪkaː pəɖʊkoːɳeː]; born 5 January 1986) is an Indian actress who works predominantly in Hindi films. One of India's highest-paid actress, Padukone's accolades include three Filmfare Awards.",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Deepika_Padukone",
+    "images": [
+      {
+        "thumbnailUrl": "/celebrities/deepika-padukone.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Deepika_Padukone_2025_%281%29.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Deepika_Padukone_2025_(1).png",
+        "filePageUrl": "https://commons.wikimedia.org/wiki/File:Deepika_Padukone_2025_(1).png",
+        "author": "Narendra Modi",
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+        "attribution": "https://youtube.com/watch?v=XIk449UxW_M&t=827s"
+      }
+    ]
+  },
+  {
+    "id": "alia-bhatt",
+    "name": "Alia Bhatt",
+    "slug": "alia-bhatt",
+    "profession": "Actor",
+    "category": "Actresses",
+    "biography": "Alia Bhatt (; born 15 March 1993) is a British actress of Indian descent who predominantly works in Hindi films. Known for her portrayals of women in challenging circumstances, she has received several accolades, including a National Film Award and seven Filmfare Awards. She is one of India's highest-paid actresses.",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Alia_Bhatt",
+    "images": [
+      {
+        "thumbnailUrl": "/celebrities/alia-bhatt.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Alia_Bhatt_attends_at_the_2026_Cannes_Film_Festival_%28cropped%29_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Alia_Bhatt_attends_at_the_2026_Cannes_Film_Festival_(cropped)_(cropped).jpg",
+        "filePageUrl": "https://commons.wikimedia.org/wiki/File:Alia_Bhatt_attends_at_the_2026_Cannes_Film_Festival_(cropped)_(cropped).jpg",
+        "author": "Gabriel Hutchinson",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "attribution": "Gabriel Hutchinson / WikiPortraits"
+      }
+    ]
+  },
+  {
+    "id": "kareena-kapoor",
+    "name": "Kareena Kapoor",
+    "slug": "kareena-kapoor",
+    "profession": "Actor",
+    "category": "Actresses",
+    "biography": "Kareena Kapoor Khan (pronounced [kəˈriːna kəˈpuːr xɑːn]; née Kapoor; born 21 September 1980) is an Indian film actress. A prolific leading lady of Hindi cinema since 2000, she is noted for her roles in a range of film genres—from romantic comedies to crime dramas.",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Kareena_Kapoor",
+    "images": [
+      {
+        "thumbnailUrl": "/celebrities/kareena-kapoor.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/29/Kareena_Kapoor_Khan_in_2023_%281%29_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kareena_Kapoor_Khan_in_2023_(1)_(cropped).jpg",
+        "filePageUrl": "https://commons.wikimedia.org/wiki/File:Kareena_Kapoor_Khan_in_2023_(1)_(cropped).jpg",
+        "author": "Bollywood Hungama",
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+        "attribution": "Bollywood Hungama"
+      }
+    ]
+  },
+  {
+    "id": "rami-malek",
+    "name": "Rami Malek",
+    "slug": "rami-malek",
+    "profession": "Actor",
+    "category": "Actors",
+    "biography": "Rami Said Malek (English:  ; Arabic: رامي سعيد مالك, Egyptian Arabic: [ˈɾɑːmi sæˈʕiːd ˈmæːlek]; born May 12, 1981) is an  American actor. He gained recognition for portraying Queen lead singer Freddie Mercury in the biographical film Bohemian Rhapsody (2018), for which he won numerous accolades, including the Academy Award for Best Actor in 2019, becoming the first actor of Egyptian heritage to win in that category.",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Rami_Malek",
+    "images": [
+      {
+        "thumbnailUrl": "/celebrities/rami-malek.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Rami_Malek_at_the_2026_Cannes_Film_Festival-69448.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rami_Malek_at_the_2026_Cannes_Film_Festival-69448.jpg",
+        "filePageUrl": "https://commons.wikimedia.org/wiki/File:Rami_Malek_at_the_2026_Cannes_Film_Festival-69448.jpg",
+        "author": "Harald Krichel",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "attribution": "Harald Krichel / WikiPortraits"
+      }
+    ]
+  },
+  {
+    "id": "mohamed-salah",
+    "name": "Mohamed Salah",
+    "slug": "mohamed-salah",
+    "profession": "Athlete",
+    "category": "Athletes",
+    "biography": "Mohamed Salah Hamed Mahrous Ghaly (born 15 June 1992) is an Egyptian professional footballer who plays as a right winger for Süper Lig club Trabzonspor and captains the Egypt national team. He is widely regarded as one of the best players of his generation and one of the greatest African players of all time.",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Mohamed_Salah",
+    "images": [
+      {
+        "thumbnailUrl": "/celebrities/mohamed-salah.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Mohamed_Salah_Argentina_v_Egypt_7_July_2026-163_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mohamed_Salah_Argentina_v_Egypt_7_July_2026-163_(cropped).jpg",
+        "filePageUrl": "https://commons.wikimedia.org/wiki/File:Mohamed_Salah_Argentina_v_Egypt_7_July_2026-163_(cropped).jpg",
+        "author": "Bryan Berlin",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "attribution": "Bryan Berlin / WikiPortraits"
+      }
+    ]
+  },
+  {
+    "id": "jackie-chan",
+    "name": "Jackie Chan",
+    "slug": "jackie-chan",
+    "profession": "Actor",
+    "category": "Actors",
+    "biography": "Chan Kong-sang (born 7 April 1954), also known as Fang Shilong and known professionally as Jackie Chan and Sing Lung, is a Hong Kong martial artist, actor and filmmaker, known for his slapstick, acrobatic fighting style, comic timing, and innovative stunts, which he typically performs himself.",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Jackie_Chan",
+    "images": [
+      {
+        "thumbnailUrl": "/celebrities/jackie-chan.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/35/Jackie_Chan.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jackie_Chan.jpg",
+        "filePageUrl": "https://commons.wikimedia.org/wiki/File:Jackie_Chan.jpg",
+        "author": "Segolene Liger",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "attribution": "Own work"
+      }
+    ]
+  },
+  {
+    "id": "jet-li",
+    "name": "Jet Li",
+    "slug": "jet-li",
+    "profession": "Actor",
+    "category": "Actors",
+    "biography": "Jet Li Lianjie (courtesy name Yangzhong; born 26 April 1963) is a martial artist, actor, and philanthropist. With a career  spanning more than forty years, he is widely regarded as one of the most influential martial artists in cinema history. Li's early work in mainland China during the 1980s is credited with introducing the Shaolin Temple to a global audience.",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Jet_Li",
+    "images": [
+      {
+        "thumbnailUrl": "/celebrities/jet-li.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/41/Jet_Li_2009_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jet_Li_2009_(cropped).jpg",
+        "filePageUrl": "https://commons.wikimedia.org/wiki/File:Jet_Li_2009_(cropped).jpg",
+        "author": "Robert Scoble",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "attribution": "https://www.flickr.com/photos/scobleizer/3238530126/"
+      }
+    ]
+  },
+  {
+    "id": "ken-watanabe",
+    "name": "Ken Watanabe",
+    "slug": "ken-watanabe",
+    "profession": "Actor",
+    "category": "Actors",
+    "biography": "Ken Watanabe (渡辺 謙, Watanabe Ken; born October 21, 1959) is a Japanese actor. He is best known for playing tragic hero characters, such as General Tadamichi Kuribayashi in Letters from Iwo Jima and Lord Katsumoto Moritsugu in The Last Samurai, for which he was nominated for the Academy Award for Best Supporting Actor.",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Ken_Watanabe",
+    "images": [
+      {
+        "thumbnailUrl": "/celebrities/ken-watanabe.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Ken_Watanabe_20220615.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ken_Watanabe_20220615.jpg",
+        "filePageUrl": "https://commons.wikimedia.org/wiki/File:Ken_Watanabe_20220615.jpg",
+        "author": "在ロサンゼルス日本国総領事館\n\nConsulate-General of Japan in Los Angeles",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "attribution": "首相官邸 (PMO)"
+      }
+    ]
+  },
+  {
+    "id": "michelle-yeoh",
+    "name": "Michelle Yeoh",
+    "slug": "michelle-yeoh",
+    "profession": "Actor",
+    "category": "Actresses",
+    "biography": "Michelle Yeoh Choo Kheng ( YOH; Chinese: 楊紫瓊; 6 August 1962) is a Malaysian actress. In a career spanning over four decades, she has acted in film and television productions covering a wide range of genres and received various accolades, including an Academy Award and a Golden Globe Award, along with nominations for two British Academy Film Awards.",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Michelle_Yeoh",
+    "images": [
+      {
+        "thumbnailUrl": "/celebrities/michelle-yeoh.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/68/Michelle_Yeoh-2268.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Michelle_Yeoh-2268.jpg",
+        "filePageUrl": "https://commons.wikimedia.org/wiki/File:Michelle_Yeoh-2268.jpg",
+        "author": "Harald Krichel",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "attribution": "Own work"
+      }
+    ]
+  },
+  {
+    "id": "gong-li",
+    "name": "Gong Li",
+    "slug": "gong-li",
+    "profession": "Actor",
+    "category": "Actresses",
+    "biography": "Gong Li (simplified Chinese: 巩俐; traditional Chinese: 鞏俐; born 31 December 1965) is a Chinese-born Singaporean actress. Known for her versatility and naturalistic performances, she is regarded as one of the best actresses in Chinese cinema.",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Gong_Li",
+    "images": [
+      {
+        "thumbnailUrl": "/celebrities/gong-li.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/08/Gong_Li_Cannes_2016.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gong_Li_Cannes_2016.jpg",
+        "filePageUrl": "https://commons.wikimedia.org/wiki/File:Gong_Li_Cannes_2016.jpg",
+        "author": "Georges Biard",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "attribution": "Georges Biard"
+      }
+    ]
+  },
+  {
+    "id": "trevor-noah",
+    "name": "Trevor Noah",
+    "slug": "trevor-noah",
+    "profession": "Actor",
+    "category": "Actors",
+    "biography": "Trevor Noah (born 20 February 1984) is a South African comedian, writer, producer, political commentator, and television host. He was the host of The Daily Show, an American late-night talk show and satirical news program on Comedy Central, from 2015 to 2022. Noah has won various awards, including two Primetime Emmy Awards.",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Trevor_Noah",
+    "images": [
+      {
+        "thumbnailUrl": "/celebrities/trevor-noah.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/28/Trevor_Noah_%2853554114243%29_%28portrait_crop%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Trevor_Noah_(53554114243)_(portrait_crop).jpg",
+        "filePageUrl": "https://commons.wikimedia.org/wiki/File:Trevor_Noah_(53554114243)_(portrait_crop).jpg",
+        "author": "Web Summit Qatar",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "attribution": "SZ1_8386"
+      }
+    ]
+  },
+  {
+    "id": "john-boyega",
+    "name": "John Boyega",
+    "slug": "john-boyega",
+    "profession": "Actor",
+    "category": "Actors",
+    "biography": "John Adedayo Bamidele Adegboyega  (born 17 March 1992), known professionally as John Boyega, is an English actor and producer. He first gained recognition in Britain for his role as a teenage gang leader in the comedy horror film Attack the Block (2011) before he had his international breakthrough playing Finn in Star Wars: The Force Awakens (2015).",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/John_Boyega",
+    "images": [
+      {
+        "thumbnailUrl": "/celebrities/john-boyega.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b9/John_Boyega_%2854716098702%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:John_Boyega_(54716098702).jpg",
+        "filePageUrl": "https://commons.wikimedia.org/wiki/File:John_Boyega_(54716098702).jpg",
+        "author": "Miguel Discart & Kiri Karma",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "attribution": "Flickr"
+      }
+    ]
+  },
+  {
+    "id": "david-oyelowo",
+    "name": "David Oyelowo",
+    "slug": "david-oyelowo",
+    "profession": "Actor",
+    "category": "Actors",
+    "biography": "David Oyetokunbo Oyelowo ( oh-yeh-LOH-woh; ; born 1 April 1976) is a British actor, director, and producer. His accolades include a Critics' Choice Award and two NAACP Image Awards as well as nominations for three Golden Globe Awards, two Primetime Emmy Awards, a Screen Actors Guild Award, and a BAFTA Award.",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/David_Oyelowo",
+    "images": [
+      {
+        "thumbnailUrl": "/celebrities/david-oyelowo.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/81/David_Oyelowo_Golden_Globes.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:David_Oyelowo_Golden_Globes.jpg",
+        "filePageUrl": "https://commons.wikimedia.org/wiki/File:David_Oyelowo_Golden_Globes.jpg",
+        "author": "Tyler Boye",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "attribution": "Tyler Boye"
+      }
+    ]
+  },
+  {
+    "id": "lupita-nyongo",
+    "name": "Lupita Nyong'o",
+    "slug": "lupita-nyongo",
+    "profession": "Actor",
+    "category": "Actresses",
+    "biography": "Lupita Amondi Nyong'o (born 1 March 1983) is an actress who has received various accolades, including an Academy Award, an Actor Award and a Daytime Emmy Award, as well as nominations for two British Academy Film Awards, a Golden Globe Award and a Tony Award.",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Lupita_Nyong'o",
+    "images": [
+      {
+        "thumbnailUrl": "/celebrities/lupita-nyongo.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c4/LupitaNyongo-byPhilipRomano3.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:LupitaNyongo-byPhilipRomano3.jpg",
+        "filePageUrl": "https://commons.wikimedia.org/wiki/File:LupitaNyongo-byPhilipRomano3.jpg",
+        "author": "PhilipRomano",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "attribution": "Own work"
+      }
+    ]
+  },
+  {
+    "id": "salma-hayek",
+    "name": "Salma Hayek",
+    "slug": "salma-hayek",
+    "profession": "Actor",
+    "category": "Actresses",
+    "biography": "Salma Valgarma Hayek Pinault ( HY-ek, Spanish: [ˈsalma ˈxaʝek]; née Hayek Jiménez; born September 2, 1966) is a Mexican and American actress and film producer. She began her career in Mexico with starring roles in the telenovela Teresa (1989–1991) as well as the romantic drama Midaq Alley (1995).",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Salma_Hayek",
+    "images": [
+      {
+        "thumbnailUrl": "/celebrities/salma-hayek.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/80/MKr383631_Salma_Hayek_%28Women_In_Motion%2C_Cannes_2025%29_crop.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:MKr383631_Salma_Hayek_(Women_In_Motion,_Cannes_2025)_crop.jpg",
+        "filePageUrl": "https://commons.wikimedia.org/wiki/File:MKr383631_Salma_Hayek_(Women_In_Motion,_Cannes_2025)_crop.jpg",
+        "author": "Martin Kraft",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "attribution": "Own work"
+      }
+    ]
+  },
+  {
+    "id": "gael-garcia-bernal",
+    "name": "Gael García Bernal",
+    "slug": "gael-garcia-bernal",
+    "profession": "Actor",
+    "category": "Actors",
+    "biography": "Gael García Bernal (Latin American Spanish: [ɡaˈel ɣaɾˈsi.a βeɾˈnal]; born 30 November 1978) is a Mexican actor and filmmaker. He has received various accolades including a Golden Globe Award and an Ariel Award.",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Gael_Garc%C3%ADa_Bernal",
+    "images": [
+      {
+        "thumbnailUrl": "/celebrities/gael-garcia-bernal.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/15/Gael_Garc%C3%ADa_Bernal-4065.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gael_Garc%C3%ADa_Bernal-4065.jpg",
+        "filePageUrl": "https://commons.wikimedia.org/wiki/File:Gael_Garc%C3%ADa_Bernal-4065.jpg",
+        "author": "Harald Krichel",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "attribution": "Harald Krichel / WikiPortraits"
+      }
+    ]
+  },
+  {
+    "id": "sofia-vergara",
+    "name": "Sofía Vergara",
+    "slug": "sofia-vergara",
+    "profession": "Actor",
+    "category": "Actresses",
+    "biography": "Sofía Margarita Vergara Vergara (Spanish: [soˈfi.a βeɾˈɣaɾa]; born July 10, 1972) is a Colombian and American actress and television personality. She has received five nominations each at the Primetime Emmy Awards and the Golden Globe Awards.",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Sof%C3%ADa_Vergara",
+    "images": [
+      {
+        "thumbnailUrl": "/celebrities/sofia-vergara.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/14/Sof%C3%ADa_Vergara_2019_by_Glenn_Francis.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sof%C3%ADa_Vergara_2019_by_Glenn_Francis.jpg",
+        "filePageUrl": "https://commons.wikimedia.org/wiki/File:Sof%C3%ADa_Vergara_2019_by_Glenn_Francis.jpg",
+        "author": "Toglenn",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "attribution": "Own work"
+      }
+    ]
+  },
+  {
+    "id": "shakira",
+    "name": "Shakira",
+    "slug": "shakira",
+    "profession": "Singer",
+    "category": "Singers",
+    "biography": "Shakira Isabel Mebarak Ripoll (  shə-KEER-ə, Spanish: [ʃaˈkiɾa isaˈβel meβaˈɾak riˈpol]; born 2 February 1977) is a Colombian singer-songwriter, dancer, and record producer.",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Shakira",
+    "images": [
+      {
+        "thumbnailUrl": "/celebrities/shakira.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b8/2023-11-16_Gala_de_los_Latin_Grammy%2C_03_%28cropped%2902.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:2023-11-16_Gala_de_los_Latin_Grammy,_03_(cropped)02.jpg",
+        "filePageUrl": "https://commons.wikimedia.org/wiki/File:2023-11-16_Gala_de_los_Latin_Grammy,_03_(cropped)02.jpg",
+        "author": "Junta de Andalucía",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "attribution": "https://www.flickr.com/photos/68782198@N02/53347401006/"
+      }
+    ]
+  },
+  {
+    "id": "neymar",
+    "name": "Neymar",
+    "slug": "neymar",
+    "profession": "Athlete",
+    "category": "Athletes",
+    "biography": "Neymar da Silva Santos Júnior (born 5 February 1992), is a Brazilian professional footballer who plays as an attacking midfielder and a forward for the Campeonato Brasileiro Série A club Santos, which he also captains. He is known for his dribbling, technical ability, agility, passing, and finishing.",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Neymar",
+    "images": [
+      {
+        "thumbnailUrl": "/celebrities/neymar.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Neymar_Junior_Brazil_V_Morocco_13_June_2026-40.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Neymar_Junior_Brazil_V_Morocco_13_June_2026-40.jpg",
+        "filePageUrl": "https://commons.wikimedia.org/wiki/File:Neymar_Junior_Brazil_V_Morocco_13_June_2026-40.jpg",
+        "author": "Bryan Berlin",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "attribution": "Bryan Berlin / WikiPortraits"
+      }
+    ]
+  },
+  {
+    "id": "jason-momoa",
+    "name": "Jason Momoa",
+    "slug": "jason-momoa",
+    "profession": "Actor",
+    "category": "Actors",
+    "biography": "Joseph Jason Namakaeha Momoa (; born August 1, 1979) is an American actor and film producer. He made his acting debut as Jason Ioane on the syndicated action drama series Baywatch: Hawaii (1999–2001), which was followed by portrayals of Ronon Dex on the Syfy science fiction series Stargate Atlantis (2005–2009), and Khal Drogo in the first two seasons of the HBO fantasy drama series Game of Thrones (2011–2012).",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Jason_Momoa",
+    "images": [
+      {
+        "thumbnailUrl": "/celebrities/jason-momoa.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/22/Jason_Momoa_%2843055621224%29_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jason_Momoa_(43055621224)_(cropped).jpg",
+        "filePageUrl": "https://commons.wikimedia.org/wiki/File:Jason_Momoa_(43055621224)_(cropped).jpg",
+        "author": "Gage Skidmore from Peoria, AZ, United States of America",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "attribution": "Jason Momoa"
+      }
+    ]
+  },
+  {
+    "id": "zac-efron",
+    "name": "Zac Efron",
+    "slug": "zac-efron",
+    "profession": "Actor",
+    "category": "Actors",
+    "biography": "Zachary David Alexander Efron (; born October 18, 1987) is an American actor. Efron began acting professionally in the early 2000s and rose to prominence as a teen idol for his leading role as Troy Bolton in the High School Musical film series (2006–2008).",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Zac_Efron",
+    "images": [
+      {
+        "thumbnailUrl": "/celebrities/zac-efron.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Zac_Efron_at_the_Baywatch_Red_Carpet_Premiere_Sydney_Australia.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Zac_Efron_at_the_Baywatch_Red_Carpet_Premiere_Sydney_Australia.jpg",
+        "filePageUrl": "https://commons.wikimedia.org/wiki/File:Zac_Efron_at_the_Baywatch_Red_Carpet_Premiere_Sydney_Australia.jpg",
+        "author": "Eva Rinaldi",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "attribution": "https://www.flickr.com/photos/evarinaldiphotography/34732955995/in/album-72157680824643334/"
+      }
+    ]
+  },
+  {
+    "id": "chris-pratt",
+    "name": "Chris Pratt",
+    "slug": "chris-pratt",
+    "profession": "Actor",
+    "category": "Actors",
+    "biography": "Christopher Michael Pratt (born June 21, 1979) is an American actor and producer. His films as a leading actor have grossed over $15.2 billion worldwide, making him one of the highest-grossing film stars of all time. Pratt was one of the world's highest-paid actors annually from 2015 to 2017.",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Chris_Pratt",
+    "images": [
+      {
+        "thumbnailUrl": "/celebrities/chris-pratt.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Chris_Pratt_Jurassic_World_Fallen_Kingdom_Japan_Premiere_Red_Carpet_%283x4_cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chris_Pratt_Jurassic_World_Fallen_Kingdom_Japan_Premiere_Red_Carpet_(3x4_cropped).jpg",
+        "filePageUrl": "https://commons.wikimedia.org/wiki/File:Chris_Pratt_Jurassic_World_Fallen_Kingdom_Japan_Premiere_Red_Carpet_(3x4_cropped).jpg",
+        "author": "Dick Thomas Johnson from Tokyo, Japan",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "attribution": "Jurassic World: Fallen Kingdom Japan Premiere Red Carpet: Chris Pratt"
+      }
+    ]
   }
 ]
