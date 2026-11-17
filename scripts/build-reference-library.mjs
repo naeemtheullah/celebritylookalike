@@ -7,7 +7,10 @@ const people=[['tom-hardy','Tom Hardy','Actor','Actors'],['zendaya','Zendaya','A
 ['jackie-chan','Jackie Chan','Actor','Actors'],['jet-li','Jet Li','Actor','Actors'],['donnie-yen','Donnie Yen','Actor','Actors'],['ken-watanabe','Ken Watanabe','Actor','Actors'],['michelle-yeoh','Michelle Yeoh','Actor','Actresses'],['gong-li','Gong Li','Actor','Actresses'],['manny-pacquiao','Manny Pacquiao','Athlete','Athletes'],
 ['trevor-noah','Trevor Noah','Actor','Actors'],['john-boyega','John Boyega','Actor','Actors'],['david-oyelowo','David Oyelowo','Actor','Actors'],['lupita-nyongo','Lupita Nyong\'o','Actor','Actresses'],
 ['salma-hayek','Salma Hayek','Actor','Actresses'],['gael-garcia-bernal','Gael García Bernal','Actor','Actors'],['sofia-vergara','Sofía Vergara','Actor','Actresses'],['shakira','Shakira','Singer','Singers'],['neymar','Neymar','Athlete','Athletes'],
-['jason-momoa','Jason Momoa','Actor','Actors'],['zac-efron','Zac Efron','Actor','Actors'],['chris-pratt','Chris Pratt','Actor','Actors']];
+['jason-momoa','Jason Momoa','Actor','Actors'],['zac-efron','Zac Efron','Actor','Actors'],['chris-pratt','Chris Pratt','Actor','Actors'],
+['gigi-hadid','Gigi Hadid','Model','Models'],['kendall-jenner','Kendall Jenner','Model','Models'],
+['yo-yo-ma','Yo-Yo Ma','Musician','Musicians'],['john-legend','John Legend','Musician','Musicians'],
+['jimmy-fallon','Jimmy Fallon','Television host','Television Personalities'],['oprah-winfrey','Oprah Winfrey','Television host','Television Personalities']];
 const clean=s=>String(s??'').replace(/<[^>]*>/g,'').replace(/&amp;/g,'&').trim();
 const summarize=s=>{const t=String(s??'').trim();if(t.length<=420)return t;const cut=t.slice(0,420);const end=cut.lastIndexOf('. ');return end>150?cut.slice(0,end+1):cut.slice(0,cut.lastIndexOf(' '))+'…'};
 const sleep=ms=>new Promise(r=>setTimeout(r,ms));

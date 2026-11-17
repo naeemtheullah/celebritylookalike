@@ -24,7 +24,7 @@ export default async function Page({params}:{params:Promise<{category:string;slu
   const image=celebrity.images[0];
   const categoryTitle=celebrity.category;
   const related=celebrities.filter(c=>c.category===celebrity.category&&c.id!==celebrity.id).slice(0,6);
-  const schema={"@context":"https://schema.org","@type":"Person","name":celebrity.name,"jobTitle":celebrity.profession,"description":celebrity.biography.slice(0,300),"image":image?.thumbnailUrl,"sameAs":celebrity.wikipediaUrl?[celebrity.wikipediaUrl]:undefined,"url":`https://celebritylookalike.pro/celebrities/${category}/${slug}`};
+  const schema={"@context":"https://schema.org","@graph":[{"@type":"Person","name":celebrity.name,"jobTitle":celebrity.profession,"description":celebrity.biography.slice(0,300),"image":image?.thumbnailUrl,"sameAs":celebrity.wikipediaUrl?[celebrity.wikipediaUrl]:undefined,"url":`https://celebritylookalike.pro/celebrities/${category}/${slug}`},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://celebritylookalike.pro/"},{"@type":"ListItem","position":2,"name":"Celebrity Directory","item":"https://celebritylookalike.pro/celebrities"},{"@type":"ListItem","position":3,"name":categoryTitle,"item":`https://celebritylookalike.pro/celebrities/${category}`},{"@type":"ListItem","position":4,"name":celebrity.name,"item":`https://celebritylookalike.pro/celebrities/${category}/${slug}`}]}]};
   return <article className="basic profile">
     <script type="application/ld+json" dangerouslySetInnerHTML={{__html:JSON.stringify(schema)}}/>
     <p className="eyebrow"><Link href="/celebrities">Celebrity directory</Link> / <Link href={`/celebrities/${category}`}>{categoryTitle}</Link></p>

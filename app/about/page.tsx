@@ -4,6 +4,7 @@ export const metadata:Metadata={title:"About Us",description:"Learn how Celebrit
 export default function Page(){return <article className="basic">
   <p className="eyebrow">About the project</p>
   <h1>A careful approach to visual resemblance.</h1>
+  <p className="meta">Last updated: 17 November 2026</p>
   <p>Celebrity Look Alike is an independent face-comparison tool built around two priorities that are often at odds: a fun, genuinely useful result, and total honesty about what that result actually means. It measures approximate visual similarity between your photo and a reviewed library of celebrities. It does not identify people, verify identity, or make any claim about who you are.</p>
 
   <h2>Why we built this</h2>
@@ -11,7 +12,7 @@ export default function Page(){return <article className="basic">
 
   <h2>How the matching works</h2>
   <p>One face is detected in your photo and its landmarks are mapped. That geometry is converted into a 128-dimensional numerical descriptor using a published face-recognition model. The same model and version generate a descriptor for every celebrity in our reference library, so comparisons happen on equal footing. Your descriptor is then compared against the library and ranked by Euclidean distance — a mathematical measure of how close two descriptors are, not a probability or identity score.</p>
-  <p>The reference library currently includes 60 public figures spanning actors, singers, and athletes from a range of regions and backgrounds, each one reviewed for a clear, single-face, appropriately licensed photo before being added.</p>
+  <p>The reference library currently includes 66 public figures spanning actors, singers, athletes, models, musicians, and television personalities from a range of regions and backgrounds, each one reviewed for a clear, single-face, appropriately licensed photo before being added.</p>
 
   <h2>What makes this different</h2>
   <ul>

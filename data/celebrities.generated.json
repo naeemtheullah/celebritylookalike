@@ -509,7 +509,7 @@
     "slug": "anne-hathaway",
     "profession": "Actor",
     "category": "Actresses",
-    "biography": "Anne Jacqueline Hathaway (born November 12, 1982) is an American actress. Her work encompasses both screen and stage, and her accolades include an Academy Award, a British Academy Film Award, a Golden Globe Award, a Screen Actors Guild Award, and a Primetime Emmy Award, in addition to two other Golden Globe nominations.",
+    "biography": "Anne Jacqueline Hathaway (born November 12, 1982) is an American actress. Her work encompasses both screen and stage, and her accolades include an Academy Award, a British Academy Film Award, a Golden Globe Award, a Screen Actors Guild Award, and a Primetime Emmy Award. Her films have grossed more than $6.7 billion worldwide.\nAs a teenager, Hathaway was cast in the television series Get Real (1999–2000).",
     "wikipediaUrl": "https://en.wikipedia.org/wiki/Anne_Hathaway",
     "images": [
       {
@@ -1256,6 +1256,132 @@
         "license": "CC BY 2.0",
         "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
         "attribution": "Jurassic World: Fallen Kingdom Japan Premiere Red Carpet: Chris Pratt"
+      }
+    ]
+  },
+  {
+    "id": "gigi-hadid",
+    "name": "Gigi Hadid",
+    "slug": "gigi-hadid",
+    "profession": "Model",
+    "category": "Models",
+    "biography": "Jelena Noura \"Gigi\" Hadid ( JEE-jee hə-DEED; born April 23, 1995) is an American fashion model and television personality. In 2016, she was named International Model of the Year by the British Fashion Council. Throughout her career, Hadid has made at least 50 appearances in international Vogue. Models.com ranks her as one of the \"New Supers\".",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Gigi_Hadid",
+    "images": [
+      {
+        "thumbnailUrl": "/celebrities/gigi-hadid.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Marina_Ruy_Barbosa_com_Gigi_Hadid_em_Paris_%28Gigi_Hadid%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Marina_Ruy_Barbosa_com_Gigi_Hadid_em_Paris_(Gigi_Hadid).jpg",
+        "filePageUrl": "https://commons.wikimedia.org/wiki/File:Marina_Ruy_Barbosa_com_Gigi_Hadid_em_Paris_(Gigi_Hadid).jpg",
+        "author": "Manuela Muniz Feijó Scarpa",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "attribution": "Own work"
+      }
+    ]
+  },
+  {
+    "id": "kendall-jenner",
+    "name": "Kendall Jenner",
+    "slug": "kendall-jenner",
+    "profession": "Model",
+    "category": "Models",
+    "biography": "Kendall Nicole Jenner (born November 3, 1995) is an American model, socialite, and media personality. She rose to fame in the reality television show Keeping Up with the Kardashians, in which she starred for 20 seasons and nearly 15 years from 2007 to 2021.",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Kendall_Jenner",
+    "images": [
+      {
+        "thumbnailUrl": "/celebrities/kendall-jenner.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Kendall_Jenner_Venice_Film_Festival_2_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kendall_Jenner_Venice_Film_Festival_2_(cropped).jpg",
+        "filePageUrl": "https://commons.wikimedia.org/wiki/File:Kendall_Jenner_Venice_Film_Festival_2_(cropped).jpg",
+        "author": "Colleen Sturtevant",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "attribution": "Own work"
+      }
+    ]
+  },
+  {
+    "id": "yo-yo-ma",
+    "name": "Yo-Yo Ma",
+    "slug": "yo-yo-ma",
+    "profession": "Musician",
+    "category": "Musicians",
+    "biography": "Yo-Yo Ma (born October 7, 1955) is an American cellist. Born to Chinese parents in Paris, he was regarded as a child prodigy, and began to study the cello with his father at age four. Ma moved with his family to Boston at age seven and later to New York City, where he continued his cello studies at the Juilliard School before pursuing a liberal arts education at Harvard University.",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Yo-Yo_Ma",
+    "images": [
+      {
+        "thumbnailUrl": "/celebrities/yo-yo-ma.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/61/Yo-Yo_Ma_in_2018_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Yo-Yo_Ma_in_2018_(cropped).jpg",
+        "filePageUrl": "https://commons.wikimedia.org/wiki/File:Yo-Yo_Ma_in_2018_(cropped).jpg",
+        "author": "Joi Ito",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "attribution": "https://www.flickr.com/photos/joi/43965848294"
+      }
+    ]
+  },
+  {
+    "id": "john-legend",
+    "name": "John Legend",
+    "slug": "john-legend",
+    "profession": "Musician",
+    "category": "Musicians",
+    "biography": "John Roger Stephens (born December 28, 1978), known professionally as John Legend, is an American singer, songwriter, pianist and record producer. He began his musical career working behind the scenes for other artists, playing piano on Lauryn Hill's \"Everything Is Everything\", and performing as an uncredited backing vocalist on Jay-Z's \"Encore\" and Alicia Keys' \"You Don't Know My Name\".",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/John_Legend",
+    "images": [
+      {
+        "thumbnailUrl": "/celebrities/john-legend.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/55/JohnLegend-byPhilipRomano.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:JohnLegend-byPhilipRomano.jpg",
+        "filePageUrl": "https://commons.wikimedia.org/wiki/File:JohnLegend-byPhilipRomano.jpg",
+        "author": "PhilipRomanoPhoto",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "attribution": "Own work"
+      }
+    ]
+  },
+  {
+    "id": "jimmy-fallon",
+    "name": "Jimmy Fallon",
+    "slug": "jimmy-fallon",
+    "profession": "Television host",
+    "category": "Television Personalities",
+    "biography": "James Thomas Fallon (born September 19, 1974) is an American comedian, television host, actor, singer, writer, and producer, best known for his work in television.\nFallon grew up with a love of comedy and music, moving to Los Angeles when he turned 21 to pursue stand-up comedy. He joined the NBC sketch comedy series Saturday Night Live as a cast member in 1998, fulfilling a lifelong dream.",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Jimmy_Fallon",
+    "images": [
+      {
+        "thumbnailUrl": "/celebrities/jimmy-fallon.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/36/Jimmy_Fallon-TTL_4575_%2811046141004%29_%285x7_cropped_and_rotated%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jimmy_Fallon-TTL_4575_(11046141004)_(5x7_cropped_and_rotated).jpg",
+        "filePageUrl": "https://commons.wikimedia.org/wiki/File:Jimmy_Fallon-TTL_4575_(11046141004)_(5x7_cropped_and_rotated).jpg",
+        "author": "Montclair Film",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "attribution": "TTL_4575"
+      }
+    ]
+  },
+  {
+    "id": "oprah-winfrey",
+    "name": "Oprah Winfrey",
+    "slug": "oprah-winfrey",
+    "profession": "Television host",
+    "category": "Television Personalities",
+    "biography": "Oprah Gail Winfrey (; born  Orpah Gail Winfrey; January 29, 1954) is an American media mogul, actress, executive producer, author, and television personality. She is best known for her talk show, The Oprah Winfrey Show, broadcast from Chicago, which ran in national syndication for 25 years, from 1986 to 2011. Globally, she is the richest Black woman and the wealthiest female celebrity.",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Oprah_Winfrey",
+    "images": [
+      {
+        "thumbnailUrl": "/celebrities/oprah-winfrey.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Oprah_Winfrey_2016.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Oprah_Winfrey_2016.jpg",
+        "filePageUrl": "https://commons.wikimedia.org/wiki/File:Oprah_Winfrey_2016.jpg",
+        "author": "US Embassy  South Africa",
+        "license": "Public domain",
+        "licenseUrl": "",
+        "attribution": "https://www.flickr.com/photos/usembassysa/30637612874/"
       }
     ]
   }
