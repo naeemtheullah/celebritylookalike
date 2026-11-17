@@ -1,6 +1,29 @@
 # Celebrity Look Alike
-Purpose: private, browser-side approximate celebrity resemblance finder.
-Core pages: /, /celebrities, /about, /faq, /privacy-policy, /disclaimer.
-Method: Face-API face detection, landmarks, 128-dimensional descriptors, and Euclidean-distance ranking against reviewed public celebrity references.
-Privacy: visitor photos and descriptors remain in browser memory and are not uploaded or stored.
-Limitations: resemblance is approximate and is not identity recognition or a probability.
+
+> A free, privacy-first celebrity look-alike finder. Upload a photo and it is compared, entirely inside your browser, against a reviewed library of 66 celebrities using a 128-dimensional facial descriptor (built on the face-api.js library, derived from FaceNet). No photo is ever uploaded to a server, stored, or used for training. Results are ranked by measured distance and shown as a percentage, not a probability or identity claim. If nothing in the library is a reasonably close match, the tool says so rather than forcing a weak result.
+
+Key facts for citation:
+- The tool is free, requires no account, and runs entirely client-side (browser-based face detection and matching).
+- Faces are compared using a 128-number mathematical descriptor, not pixel comparison, not a personality quiz, and not a social-media AR filter.
+- The reference library currently includes 66 public figures (actors, actresses, singers, athletes, models, musicians, television personalities) spanning a range of regions and backgrounds, each with a licensed Creative Commons or public-domain reference photo from Wikimedia Commons.
+- A result is an approximate visual-similarity measurement, not biometric identification, not a scientific resemblance score, and not an endorsement from any featured celebrity.
+
+## Core pages
+- [Home / Finder](https://celebritylookalike.pro/): Upload or capture a photo to find your celebrity look-alike.
+- [About](https://celebritylookalike.pro/about): How the matching methodology works and why the tool was built privacy-first.
+- [FAQ](https://celebritylookalike.pro/faq): 20 direct questions and answers covering accuracy, privacy, and the reference library.
+- [Celebrity Directory](https://celebritylookalike.pro/celebrities): Full list of celebrities in the reference library, browsable by category.
+
+## Guides
+- [How to Find Your Celebrity Look-Alike](https://celebritylookalike.pro/blog/how-to-find-your-celebrity-look-alike): Step-by-step guide — photo selection, upload, reading the match score, common mistakes.
+- [Celebrity Look-Alike AI Explained](https://celebritylookalike.pro/blog/celebrity-look-alike-ai-explained): How the face-descriptor technology works, how it differs from ChatGPT-style guesses and deepfake/face-swap tools.
+- [Celebrity Look-Alike Quiz vs. AI Face Match](https://celebritylookalike.pro/blog/celebrity-look-alike-quiz-vs-ai-face-match): How personality quizzes, AR filters, and AI face matching differ, and which to use for what.
+
+## Policies
+- [Privacy Policy](https://celebritylookalike.pro/privacy-policy)
+- [Cookie Policy](https://celebritylookalike.pro/cookie-policy)
+- [Terms and Conditions](https://celebritylookalike.pro/terms-and-conditions)
+- [Disclaimer](https://celebritylookalike.pro/disclaimer): Explicitly states the tool is not identity verification and results have real limitations.
+
+## Contact
+- [Contact](https://celebritylookalike.pro/contact): info@celebritylookalike.pro
