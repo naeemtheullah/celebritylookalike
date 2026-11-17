@@ -1,0 +1,10 @@
+[
+ {"id":"tom-hardy","name":"Tom Hardy","slug":"tom-hardy","profession":"Actor","category":"Actors","biography":"English actor.","wikipediaUrl":"https://en.wikipedia.org/wiki/Tom_Hardy","images":[]},
+ {"id":"zendaya","name":"Zendaya","slug":"zendaya","profession":"Actor and singer","category":"Actresses","biography":"American actor and singer.","wikipediaUrl":"https://en.wikipedia.org/wiki/Zendaya","images":[]},
+ {"id":"beyonce","name":"Beyoncé","slug":"beyonce","profession":"Singer","category":"Singers","biography":"American singer and songwriter.","wikipediaUrl":"https://en.wikipedia.org/wiki/Beyonc%C3%A9","images":[]},
+ {"id":"ryan-gosling","name":"Ryan Gosling","slug":"ryan-gosling","profession":"Actor","category":"Actors","biography":"Canadian actor.","wikipediaUrl":"https://en.wikipedia.org/wiki/Ryan_Gosling","images":[]},
+ {"id":"emma-stone","name":"Emma Stone","slug":"emma-stone","profession":"Actor","category":"Actresses","biography":"American actor.","wikipediaUrl":"https://en.wikipedia.org/wiki/Emma_Stone","images":[]},
+ {"id":"dwayne-johnson","name":"Dwayne Johnson","slug":"dwayne-johnson","profession":"Actor and athlete","category":"Actors","biography":"American actor and professional wrestler.","wikipediaUrl":"https://en.wikipedia.org/wiki/Dwayne_Johnson","images":[]},
+ {"id":"taylor-swift","name":"Taylor Swift","slug":"taylor-swift","profession":"Singer-songwriter","category":"Singers","biography":"American singer-songwriter.","wikipediaUrl":"https://en.wikipedia.org/wiki/Taylor_Swift","images":[]},
+ {"id":"idris-elba","name":"Idris Elba","slug":"idris-elba","profession":"Actor","category":"Actors","biography":"English actor.","wikipediaUrl":"https://en.wikipedia.org/wiki/Idris_Elba","images":[]}
+]
