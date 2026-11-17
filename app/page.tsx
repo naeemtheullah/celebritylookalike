@@ -1,4 +1,4 @@
-import type {Metadata} from "next";import Link from "next/link";
+import type {Metadata} from "next";import Link from "next/link";import {ArrowUpRight} from "lucide-react";
 import LookAlikeTool from "@/components/LookAlikeTool";
 const faqs=[
   ["What is a celebrity look-alike finder?","It is a visual comparison tool that measures facial features in your photo against a reference library and ranks the closest approximate resemblances."],
@@ -11,6 +11,13 @@ export const metadata:Metadata={title:"Celebrity Look Alike Finder - Private AI 
 export default function Home(){return <>
   <script type="application/ld+json" dangerouslySetInnerHTML={{__html:JSON.stringify(schema)}}/>
   <LookAlikeTool/>
+  <section className="promo-split">
+    <h2 className="promo-headline">One <img className="inline-icon" src="/icons/camera-icon.webp" alt="" width={56} height={56}/> photo<br/>reveals your <img className="inline-icon" src="/icons/match-icon.webp" alt="" width={56} height={56}/> match.</h2>
+    <div className="promo-actions">
+      <Link className="promo-card promo-dark" href="/#tool"><span>Find my look alike</span><span className="promo-arrow"><ArrowUpRight size={16}/></span></Link>
+      <Link className="promo-card promo-light" href="/celebrities"><span>Browse celebrities</span><span className="promo-arrow"><ArrowUpRight size={16}/></span></Link>
+    </div>
+  </section>
   <section className="trust"><p className="eyebrow">A more honest face-matching experience</p><h2>Visual resemblance, not identity.</h2><div className="three"><article><b>01</b><h3>Local analysis</h3><p>Your image and facial descriptor remain in memory on your device.</p></article><article><b>02</b><h3>Real measurements</h3><p>A 128-dimensional descriptor is compared with genuine reference descriptors.</p></article><article><b>03</b><h3>Clear limitations</h3><p>Lighting, pose, expression and dataset coverage all affect results.</p></article></div></section>
   <section className="illustration-feature"><div className="illustration-frame"><img src="/illustrations/private-face-match.jpg" alt="Illustrated portrait and reflection connected by facial landmark lines"/></div><div className="illustration-copy"><p className="eyebrow">The shape of resemblance</p><h2>More than a familiar face.</h2><p>Our model considers the spatial relationship between facial landmarks - not hairstyle, clothing, fame, or identity. The result is a playful comparison grounded in measurable features.</p><a className="primary" href="#tool">Try your photo</a></div></section>
   <section className="content-split photo-guide"><div><p className="eyebrow">Better input, better comparison</p><h2>Choose a photo the model can read clearly.</h2><p>A strong source photo gives face detection and landmark placement the best chance to work consistently. You do not need a professional portrait - just a clear, natural view.</p><ul className="check-list"><li><b>Face the camera.</b><span>Use a straight-on or gentle three-quarter angle.</span></li><li><b>Find even light.</b><span>Window light works well; avoid harsh shadows and backlighting.</span></li><li><b>Keep one face in frame.</b><span>Group photos are rejected to prevent choosing the wrong person.</span></li><li><b>Stay natural.</b><span>A relaxed expression and minimal filters preserve useful facial detail.</span></li></ul></div><figure><img src="/illustrations/photo-tips.jpg" alt="Illustration of a person taking a clear, front-facing selfie in soft window light"/><figcaption>A clear face, even light, and a natural angle help produce steadier comparisons.</figcaption></figure></section>
