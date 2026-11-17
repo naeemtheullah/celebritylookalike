@@ -13,3 +13,4 @@ Next.js browser-side celebrity resemblance application. Visitor images never lea
 
 No random or placeholder descriptors are included. The matcher intentionally reports an unavailable reference library until reviewed data is installed.
 "# celebritylookalike" 
+"# celebritylookalike" 
