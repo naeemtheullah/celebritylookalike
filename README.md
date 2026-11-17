@@ -12,3 +12,4 @@ Next.js browser-side celebrity resemblance application. Visitor images never lea
 6. Run `npm run typecheck` and `npm run build`.
 
 No random or placeholder descriptors are included. The matcher intentionally reports an unavailable reference library until reviewed data is installed.
+"# celebritylookalike" 
