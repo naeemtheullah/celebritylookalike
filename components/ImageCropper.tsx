@@ -2,7 +2,7 @@
 import { useEffect,useRef,useState } from "react";
 import { Check,X,ZoomIn } from "lucide-react";
 const OUTPUT_SIZE=640;
-export default function ImageCropper({src,onConfirm,onCancel}:{src:string;onConfirm:(dataUrl:string)=>void;onCancel:()=>void}){
+export default function ImageCropper({src,faceBox,onConfirm,onCancel}:{src:string;faceBox?:{x:number;y:number;width:number;height:number}|null;onConfirm:(dataUrl:string)=>void;onCancel:()=>void}){
  const viewport=useRef<HTMLDivElement>(null);
  const imgRef=useRef<HTMLImageElement>(null);
  const [size,setSize]=useState(0);
@@ -20,11 +20,22 @@ export default function ImageCropper({src,onConfirm,onCancel}:{src:string;onConf
  },[]);
  useEffect(()=>{
   if(!ready)return;
+  if(faceBox){
+   const targetZoom=Math.min(3,Math.max(1,(size*0.62)/(faceBox.height*natural.h*baseScale)));
+   setZoom(targetZoom);
+   const scale=baseScale*targetZoom;
+   const cx=(faceBox.x+faceBox.width/2)*natural.w*scale;
+   const cy=(faceBox.y+faceBox.height*0.42)*natural.h*scale;
+   const w=natural.w*scale,h=natural.h*scale;
+   const minX=Math.min(0,size-w),minY=Math.min(0,size-h);
+   setPos({x:Math.min(0,Math.max(minX,size/2-cx)),y:Math.min(0,Math.max(minY,size/2-cy))});
+   return;
+  }
   setZoom(1);
   const w=natural.w*baseScale,h=natural.h*baseScale;
   setPos({x:(size-w)/2,y:(size-h)/2});
   // eslint-disable-next-line react-hooks/exhaustive-deps
- },[ready,size,natural.w,natural.h]);
+ },[ready,size,natural.w,natural.h,faceBox]);
  const clamp=(x:number,y:number,scale:number)=>{
   const w=natural.w*scale,h=natural.h*scale;
   const minX=Math.min(0,size-w),minY=Math.min(0,size-h);
